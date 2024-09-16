@@ -1,0 +1,81 @@
+{
+    "foods": [
+        {
+            "id": 1,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 2,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 3,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 4,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 5,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 6,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 7,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 8,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 9,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 10,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        },
+        {
+            "id": 11,
+            "name": "Spinach & Mushroom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.",
+            "price": 150,
+            "image": "/images/food.png"
+        }
+    ]
+}

@@ -9,7 +9,8 @@ export default {
       colors: {
         primary: "#8ABA51",
         secondary: "#334A55",
-        base:"#E9EBF8"
+        base:"#E9EBF8",
+        blackie: "#232323"
       }
     },
     container: {
