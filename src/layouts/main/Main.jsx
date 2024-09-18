@@ -8,7 +8,7 @@ export default function Main() {
     <>
       <div className="">
         <Navbar />
-        <div className="min-h-screen">
+        <div className="min-h-screen mb-10">
           <Outlet />
         </div>
       </div>

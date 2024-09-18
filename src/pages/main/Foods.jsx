@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import AllFoods from "../../components/ui/Foods/AllFoods";
 
 export default function Foods() {
   return (
-    <div>Foods</div>
-  )
+    <div className="container">
+      <AllFoods />
+    </div>
+  );
 }

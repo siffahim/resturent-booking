@@ -1,12 +1,10 @@
-import { ChevronRight } from "lucide-react";
+import { Search } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import FoodCard from "../../shared/FoodCard";
 import Heading from "../../shared/Heading";
 
-export default function FoodSection() {
+export default function AllFoods() {
   const [foods, setFoods] = useState([]);
-  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchFood = async () => {
@@ -16,25 +14,24 @@ export default function FoodSection() {
     };
     fetchFood();
   }, []);
-
-  //  fetch("./fake.json")
-  //      .then((res)=> res.json())
-  //      .then(data => console.log(data))
-
   return (
-    <div>
+    <div className="mt-10">
       <div className="flex items-center justify-between">
         <Heading />
-        <button
-          onClick={() => navigate("/foods")}
-          className="flex items-start text-primary hover:text-secondary duration-200"
-        >
-          See all <ChevronRight />
-        </button>
+        <div className="border w-2/4 flex px-2 py-1 rounded-full">
+          <input
+            type="text"
+            className=" w-full py-2 outline-none"
+            name=""
+            id=""
+          />
+          <button className="bg-primary text-white w-10 h-10 flex items-center justify-center rounded-full">
+            <Search />
+          </button>
+        </div>
       </div>
-
       <div className="grid grid-cols-4 gap-4 mt-10">
-        {foods.slice(0, 4).map((item, index) => (
+        {foods.map((item, index) => (
           <FoodCard key={index} item={item} />
         ))}
       </div>
