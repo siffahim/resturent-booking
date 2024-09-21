@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
       </div>
       <ul
-        className={`space-y-5 lg:space-y-0 lg:flex items-center gap-10 lg:static p-4 lg:p-0 absolute duration-500 bg-secondary lg:bg-transparent h-auto ${
+        className={`space-y-5 lg:space-y-0 lg:flex items-center gap-10 lg:static p-4 lg:p-0 absolute  bg-secondary lg:bg-transparent h-auto ${
           open ? "left-0 top-14 w-full" : "left-0 -top-96"
         }`}
       >

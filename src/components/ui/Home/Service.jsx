@@ -12,7 +12,7 @@ export default function Service() {
     { icon: <ChefHat />, title: "Immaculate Kitchens" },
   ];
   return (
-    <div className="grid grid-cols-2 gap-14 my-20">
+    <div className="grid grid-cols-1 px-5 lg:px-0  lg:grid-cols-2 gap-14 my-20">
       <div>
         <img className="w-[80%]" src={image} alt="" />
       </div>

@@ -20,7 +20,7 @@ export default function Footer() {
   ];
   return (
     <div className="bg-blackie text-white px-20 pt-14">
-      <div className="flex items-center justify-between">
+      <div className="lg:flex items-center justify-between">
         <img className="w-64" src={logo} alt="" />
         <div className="flex gap-10">
           <div>
@@ -47,9 +47,9 @@ export default function Footer() {
         ordered, nice arrangement and services from the staff while eating, we
         found nothing bad about this hotel.
       </p>
-      <div className="flex items-center justify-between border-t py-8">
+      <div className="lg:flex items-center justify-between border-t py-8">
         <p>&copy;All right reserved by Bookatable</p>
-        <div className="flex items-center gap-10">
+        <div className="flex lg:flex-row items-center gap-10">
           <Link to="#">About us</Link>
           <Link to="#">Privacy Policy</Link>
           <Link to="#">Terms of use</Link>

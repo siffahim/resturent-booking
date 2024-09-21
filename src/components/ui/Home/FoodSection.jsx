@@ -33,7 +33,7 @@ export default function FoodSection() {
         </button>
       </div>
 
-      <div className="grid grid-cols-4 gap-4 mt-10">
+      <div className="grid px-5 lg:px-0 grid-cols-1 lg:grid-cols-4 gap-4 mt-10">
         {foods.slice(0, 4).map((item, index) => (
           <FoodCard key={index} item={item} />
         ))}

@@ -5,7 +5,7 @@ import playStore from "../../../assets/play-store.png";
 
 export default function Showcase() {
   return (
-    <div className="grid grid-cols-2 gap-14 items-center mt-20">
+    <div className="grid grid-cols-1  lg:grid-cols-2 gap-14 items-center mt-20">
       <div className="space-y-5">
         <h2 className="text-4xl font-semibold">
           It’s Now More Easy to <span className="text-primary">Booking</span> by
